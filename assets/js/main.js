@@ -129,7 +129,23 @@ const weaponsArray = [
 
 
 ]
+const roomArray = [
 
+    "Dining Room", "Conservatory", "Kitchen", "Study", "Library", "Billiard Room", "Lounge",
+    "Ballroom", "Hall", "Spa", "Living Room", "Observatory", "Theater", "Guest House", "Patio"]
+
+const randomroom = roomArray[Math.floor(Math.random() * roomArray.length)];
+console.log("randomroom", randomroom)
+console.log(roomArray)
+
+console.log(weaponsArray)
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const randomperson = suspectsArray[Math.floor(Math.random() * suspectsArray.length)];
+
+console.log("random person", randomperson);
+
+const randomweapon = weaponsArray[Math.floor(Math.random() * weaponsArray.length)];
+console.log("randomweapon", randomweapon)
 
 
 // const weaponsArray = [{ name: "pistole", "gewicht 300gr"},]{
