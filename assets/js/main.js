@@ -142,20 +142,16 @@ console.log(weaponsArray)
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const randomperson = suspectsArray[Math.floor(Math.random() * suspectsArray.length)];
 
-console.log("random person", randomperson);
+console.log(randomperson);
 
 const randomweapon = weaponsArray[Math.floor(Math.random() * weaponsArray.length)];
-console.log("randomweapon", randomweapon)
+console.log(randomweapon)
 
 
-// const weaponsArray = [{ name: "pistole", "gewicht 300gr"},]{
+console.log(randomroom, randomweapon, randomperson)
 
-// }
-
-// var fruits, text;
-// fruits = ["Banana", "Orange", "Apple", "Mango"];
-
-// text = "<ul>";
-// fruits.forEach(myFunction);
-// text += "</ul>";
-// document.getElementById("demo").innerHTML = text;
+function myFunction() {
+    document.getElementById("demo").innerHTML = randomroom;
+    document.getElementById("demo2").innerHTML = randomweapon;
+    document.getElementById("demo3").innerHTML = randomperson;
+}
